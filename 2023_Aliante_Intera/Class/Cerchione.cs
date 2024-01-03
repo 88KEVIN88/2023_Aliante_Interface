@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2023_Aliante_Intera
 {
-    internal class Cerchione : IComposite
+    public class Cerchione : IComposite
     {
         private double _pollici;
         private string _materiale;

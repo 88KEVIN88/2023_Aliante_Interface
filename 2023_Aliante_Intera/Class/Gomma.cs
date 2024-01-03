@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2023_Aliante_Intera
 {
-    internal class Gomma : IComposite
+    public class Gomma : IComposite
     {
         private double _length;
         private double _width;
@@ -17,7 +17,7 @@ namespace _2023_Aliante_Intera
             get { return _length; }
             set
             {
-                if(value >= 0)
+                if(value > 0)
                 {
                     _length = value;
                 }

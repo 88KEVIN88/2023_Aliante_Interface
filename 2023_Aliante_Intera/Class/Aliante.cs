@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2023_Aliante_Intera
 {
-    internal class Aliante : IComposite
+    public class Aliante : IComposite
     {
         private List<IComposite> _componenti;
 

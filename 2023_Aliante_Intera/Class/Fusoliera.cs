@@ -9,7 +9,7 @@ using System.Xml.Schema;
 
 namespace _2023_Aliante_Intera
 {
-    internal class Fusoliera:IComposite
+    public class Fusoliera:IComposite
     {
         private double _length;
         private string _materiale;
@@ -41,7 +41,7 @@ namespace _2023_Aliante_Intera
         }
         public Fusoliera(double length,string materiale)
         {
-            Length = 0;
+            Length = length;
             Materiale = materiale;
         }
         public override bool Equals(object obj)

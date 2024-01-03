@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2023_Aliante_Intera
 {
-    internal class Ruota : IComposite
+    public class Ruota : IComposite
     {
         private Gomma _gomma;
         private Cerchione _cerchione;

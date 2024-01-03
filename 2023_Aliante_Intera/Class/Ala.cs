@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2023_Aliante_Intera
 {
-    internal class Ala : IComposite
+    public class Ala : IComposite
     {
         private double _length;
         private double _width;
@@ -16,7 +16,7 @@ namespace _2023_Aliante_Intera
             get { return _length; }
             set
             {
-                if(value >= 0)
+                if(value > 0)
                 {
                     _length = value;
                 }
@@ -31,7 +31,7 @@ namespace _2023_Aliante_Intera
             get { return _width; }
             set
             {
-                if(value * 2F >= Lenght)
+                if(value > 0)
                 {
                     _width = value;
                 }
