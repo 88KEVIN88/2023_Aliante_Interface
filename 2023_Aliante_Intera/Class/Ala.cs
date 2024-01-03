@@ -10,7 +10,7 @@ namespace _2023_Aliante_Intera
     {
         private double _lenght;
         private double _width;
-
+         
         public double Lenght
         {
             get { return _lenght; }
@@ -41,6 +41,49 @@ namespace _2023_Aliante_Intera
                 }
             }
         }
-        
+        public Ala()
+        {
+            Lenght = 0;
+            Width = 0;
+        }
+        public Ala(double lenght, double width)
+        {
+            Lenght = lenght;
+            Width = width;
+        }
+        public Ala(Ala vecchia)
+        {
+            Lenght = vecchia.Lenght;
+            Width = vecchia.Width;
+        }
+        public override bool Equals(object obj)
+        {
+            if (obj is Ala other && Lenght == other.Lenght && Width == other.Width)
+            {
+                return true;
+            }
+
+            return false;
+        }
+        public void Add(IComposite composite)
+        {
+
+        }
+        public void Remove(int index)
+        {
+
+        }
+        public IComposite Get(int index)
+        {
+            return null;
+        }
+        public override string ToString()
+        {
+            return $"Lunghezza ala:{Lenght}; Apertura ala:{Width}";
+        }
+        public double Price()
+        {
+            return Lenght * Width;
+        }
     }
 }
