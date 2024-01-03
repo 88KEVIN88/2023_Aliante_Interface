@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace _2023_Aliante_Intera
 {
-    internal class Coda
+    internal class Coda : IComposite
     {
+       
     }
 }

@@ -8,17 +8,17 @@ namespace _2023_Aliante_Intera
 {
     internal class Ala : IComposite
     {
-        private double _lenght;
+        private double _length;
         private double _width;
          
         public double Lenght
         {
-            get { return _lenght; }
+            get { return _length; }
             set
             {
                 if(value >= 0)
                 {
-                    _lenght = value;
+                    _length = value;
                 }
                 else
                 {
