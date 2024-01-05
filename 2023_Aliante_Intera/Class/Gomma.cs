@@ -66,8 +66,8 @@ namespace _2023_Aliante_Intera
         }
         public Gomma(double length, double width, double r)
         {
-            Length = length;
-            Width = width;
+            _length = length;
+            _width = width;
             _r = r;
         }
         public Gomma(Gomma vecchia)

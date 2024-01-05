@@ -38,8 +38,8 @@ namespace _2023_Aliante_Intera
         }
         public Cerchione(double pollici, string materiale)
         {
-            Pollici = pollici;
-            Materiale = materiale;
+            _pollici = pollici;
+            _materiale = materiale;
         }
         public Cerchione(Cerchione vecchio)
         {

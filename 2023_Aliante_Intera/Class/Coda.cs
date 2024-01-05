@@ -30,7 +30,7 @@ namespace _2023_Aliante_Intera
         }
         public Coda(double lenght)
         {
-            Lenght = lenght;
+            _lenght = lenght;
         }
         public Coda(Coda vecchia)
         {
